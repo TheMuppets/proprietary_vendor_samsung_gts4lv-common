@@ -6,24 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/gts4lv-common
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gts4lv-common/proprietary/system/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
-    vendor/samsung/gts4lv-common/proprietary/system/lib64/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmaet.so \
-    vendor/samsung/gts4lv-common/proprietary/system/lib64/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk_skia.so \
-    vendor/samsung/gts4lv-common/proprietary/system/media/battery_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_error.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/battery_low.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_low.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/battery_temperature_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_temperature_error.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/battery_temperature_limit.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_temperature_limit.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/battery_water_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_water_usb.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/charging_New_Fast.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_New_Fast.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/charging_New_Normal.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_New_Normal.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/dock_error_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/dock_error_usb.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/incomplete_connect.spi:$(TARGET_COPY_OUT_SYSTEM)/media/incomplete_connect.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/lcd_density.txt:$(TARGET_COPY_OUT_SYSTEM)/media/lcd_density.txt \
-    vendor/samsung/gts4lv-common/proprietary/system/media/percentage.spi:$(TARGET_COPY_OUT_SYSTEM)/media/percentage.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/safety_timer_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/safety_timer_usb.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/slow_charging_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/slow_charging_usb.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/temperature_limit_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/temperature_limit_usb.spi \
-    vendor/samsung/gts4lv-common/proprietary/system/media/water_protection_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/water_protection_usb.spi \
     vendor/samsung/gts4lv-common/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/samsung/gts4lv-common/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
     vendor/samsung/gts4lv-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
@@ -78,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-qti \
-    vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/android.hardware.health@2.1-service-samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service-samsung \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/samsung/gts4lv-common/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
@@ -116,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/samsung/gts4lv-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/samsung/gts4lv-common/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
-    vendor/samsung/gts4lv-common/proprietary/vendor/etc/init/android.hardware.health@2.1-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service-samsung.rc \
     vendor/samsung/gts4lv-common/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/samsung/gts4lv-common/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/samsung/gts4lv-common/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
@@ -517,7 +497,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-qti.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/hw/gatekeeper.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mdfpp.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
@@ -733,7 +712,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.2.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth@2.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.health@2.0.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib64/vendor.samsung.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.thermal@1.0.so
 
@@ -747,7 +725,6 @@ PRODUCT_PACKAGES += \
     WfdCommon \
     com.android.hotwordenrollment.common.util \
     android.hardware.gnss@2.1-service-qti.xml \
-    android.hardware.health@2.1-samsung.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.samsung.hardware.thermal@1.0-manifest.xml
 
