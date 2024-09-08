@@ -749,10 +749,10 @@ PRODUCT_PACKAGES += \
     WfdService \
     WfdCommon \
     com.android.hotwordenrollment.common.util \
-    android.hardware.gnss@2.1-service-qti \
-    android.hardware.health@2.1-samsung \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.samsung.hardware.thermal@1.0-manifest
+    android.hardware.gnss@2.1-service-qti.xml \
+    android.hardware.health@2.1-samsung.xml \
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.samsung.hardware.thermal@1.0-manifest.xml
 
 PRODUCT_PACKAGES += \
     libEGL_adreno_libEGL_adreno_symlink32 \
