@@ -211,7 +211,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.1-impl-qti.so \
-    vendor/samsung/gts4lv-common/proprietary/vendor/lib/hw/audio.primary.sdm710-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm710-samsung.so \
+    vendor/samsung/gts4lv-common/proprietary/vendor/lib/hw/audio.primary.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.qcom.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/hw/com.samsung.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.samsung.chi.override.so \
     vendor/samsung/gts4lv-common/proprietary/vendor/lib/hw/sound_trigger.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm710.so \
