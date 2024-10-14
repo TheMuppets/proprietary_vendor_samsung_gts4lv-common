@@ -6838,7 +6838,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "HotwordEnrollmentOKGoogleEx2TL3210",
 	owner: "samsung",
-	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleEx2TL3210/HotwordEnrollmentOKGoogleEx2TL3210.apk",
+	apk: "proprietary/system/priv-app/HotwordEnrollmentOKGoogleEx2TL3210/HotwordEnrollmentOKGoogleEx2TL3210.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -6849,7 +6849,7 @@ android_app_import {
 android_app_import {
 	name: "HotwordEnrollmentXGoogleEx2TL3210",
 	owner: "samsung",
-	apk: "proprietary/priv-app/HotwordEnrollmentXGoogleEx2TL3210/HotwordEnrollmentXGoogleEx2TL3210.apk",
+	apk: "proprietary/system/priv-app/HotwordEnrollmentXGoogleEx2TL3210/HotwordEnrollmentXGoogleEx2TL3210.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
