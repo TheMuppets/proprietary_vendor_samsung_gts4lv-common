@@ -502,9 +502,9 @@ PRODUCT_PACKAGES += \
     wfdservice
 
 PRODUCT_PACKAGES += \
-    vendor_lib_libEGL_adreno \
-    vendor_lib_libGLESv2_adreno \
-    vendor_lib_libq3dtools_adreno \
-    vendor_lib64_libEGL_adreno \
-    vendor_lib64_libGLESv2_adreno \
-    vendor_lib64_libq3dtools_adreno
+    vendor_lib_libEGL_adreno_so \
+    vendor_lib_libGLESv2_adreno_so \
+    vendor_lib_libq3dtools_adreno_so \
+    vendor_lib64_libEGL_adreno_so \
+    vendor_lib64_libGLESv2_adreno_so \
+    vendor_lib64_libq3dtools_adreno_so
